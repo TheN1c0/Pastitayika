@@ -1,0 +1,131 @@
+body{
+    background-image:url(../IMG/fondo.png) ;
+    
+}
+
+
+
+.navbarNav{
+    text-align: center;
+    
+}
+.navbar-transparent {
+    background-color: rgba(255, 255, 255, 0.5); 
+  }
+#navbarNav{
+    background-color: rgba(91, 158, 52, 0.5);
+}
+nav{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 20%;
+    
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #594736;
+    width: 100%;
+    margin-left: 0;
+    height: 40px;
+}
+/*
+#594736
+#BF9B7A
+#D9BBA0
+#8C6B58
+#F2D4C2
+*/
+
+
+.navbar-collapse{
+    justify-content: center;
+}
+
+#logo{
+    border-radius: 50%;
+    width: 80px;
+}
+[id^="descripcion"] {
+    color: #deffd4; 
+}
+
+[id^="descripcion"] {
+    color: #deffd4; 
+}
+
+.btn-icon {
+    margin-top: 5px;
+    color: black;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-icon:focus {
+    outline: 2px solid blue; /* Para accesibilidad */
+}
+
+.nav-item[role="button"] {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item[role="button"]:focus {
+    outline: 2px solid blue; /* Para accesibilidad */
+}
+
+.navbar .icon-person{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar{
+    padding-left: 60px;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: -250px;
+}
+
+.card {
+    width: 24rem;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+.card-header {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+  
+.btn-primary {
+    width: 100%;
+    border-radius: 5px;
+}
