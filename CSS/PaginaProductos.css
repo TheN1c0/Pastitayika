@@ -29,13 +29,6 @@ footer {
     margin-left: 0;
     height: 40px;
 }
-/*
-#594736
-#BF9B7A
-#D9BBA0
-#8C6B58
-#F2D4C2
-*/
 
 .navbar-collapse{
     justify-content: center;
@@ -91,37 +84,70 @@ footer {
     padding-left: 60px;
 }
 
-.center-container {
+.price {
+    font-size: 1.5em;
+    color: green;
+    font-weight: bold;
+  }
+
+.container-center {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    min-height: 100vh;
-    margin-top: -250px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .card {
-    width: 24rem;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-
-.card-header {
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #007bff;
-}
-
-.form-group label {
-    font-weight: bold;
-}
-
-.form-control {
-    border-radius: 5px;
-}
-  
-.btn-primary {
     width: 100%;
-    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+.card-text {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
 }
