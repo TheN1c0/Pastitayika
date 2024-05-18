@@ -33,7 +33,7 @@ $(document).ready(function(){
             return;
         }
 
-        if (isNaN(celular) || celular.toString().length !== 9){ 
+        if (celular !== "" && (isNaN(celular) || celular.toString().length !== 9)){ 
             alert("Número no válido.")
             return;
         }
