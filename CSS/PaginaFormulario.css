@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body{
     background-image:url(../IMG/fondo.png) ;
     
@@ -66,7 +68,7 @@ footer {
 }
 
 .btn-icon:focus {
-    outline: 2px solid blue; /* Para accesibilidad */
+    outline: 2px solid blue; 
 }
 
 .nav-item[role="button"] {
@@ -77,7 +79,7 @@ footer {
 }
 
 .nav-item[role="button"]:focus {
-    outline: 2px solid blue; /* Para accesibilidad */
+    outline: 2px solid blue; 
 }
 
 .navbar .icon-person{
@@ -124,4 +126,29 @@ footer {
 .btn-primary {
     width: 100%;
     border-radius: 5px;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #007bff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.nav-link:active {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.nav-item{
+    padding: 10px;
 }
