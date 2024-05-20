@@ -85,21 +85,6 @@ nav{
     margin-top: -250px;
 }
 
-
-
-
-
-.card1 {
-    background-image: url("../IMG/fondo2.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center;
-    width: auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
 .card2 {
     width: 40rem;
     padding: 30px;
