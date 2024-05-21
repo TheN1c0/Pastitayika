@@ -2,9 +2,11 @@
 
 body{
     background-image:url(../IMG/fondo.png) ;
+    background-attachment: fixed;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #333;
     background-color: #f8f8fa;
+    background-position: center;
     
 }
 

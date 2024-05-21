@@ -3,7 +3,6 @@
 body{
     background-image:url(../IMG/fondo.png) ;
     background-position: center;
-    
 }
 
 .navbarNav{
@@ -23,22 +22,6 @@ nav{
     height: 20%;
     
 }
-
-footer {
-    position: fixed;
-    bottom: 0;
-    background-color: #594736;
-    width: 100%;
-    margin-left: 0;
-    height: 40px;
-}
-/*
-#594736
-#BF9B7A
-#D9BBA0
-#8C6B58
-#F2D4C2
-*/
 
 .navbar-collapse{
     justify-content: center;
@@ -102,13 +85,13 @@ footer {
     margin-top: -250px;
 }
 
-.card {
-    width: 24rem;
-    padding: 20px;
+.card2 {
+    width: 40rem;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-
+    background-color: rgba(255,255,255,0.9);
+}
 .card-header {
     text-align: center;
     font-size: 1.5rem;
