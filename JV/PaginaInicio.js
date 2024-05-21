@@ -25,5 +25,7 @@ function mostrarDescri(id) {
     });
 
     // Muestra el contenido especificado por su ID
+    
     document.getElementById(id).style.display = 'block';
+    
 }

@@ -47,10 +47,11 @@ footer {
 */
 #part_derecha{
     width: 20%;
-    overflow: hidden;
+    
     right: 0;
     position: fixed;
-    border: 1px solid;
+    
+    
     top: 10%;
     margin-top: 1%;
 }
@@ -65,7 +66,7 @@ footer {
 
 #part_medio{
     margin-left: 20%;
-    overflow-y: scroll;
+    overflow-y: hidden;
     margin-right: 20%;
     position: fixed;
     margin-top: 1%;
@@ -79,9 +80,15 @@ footer {
     
 }
 #carouselExampleIndicators{
-    width: 100%;
+    width: 90% ;
+    margin: auto;
     
 }
+.carousel-item img {
+    height: auto; 
+    max-height: 519px; 
+  }
+
 #presentacion{
     border: 1px solid black;
     padding: 1%;
@@ -99,6 +106,7 @@ footer {
 }
 [id^="descripcion"] {
     color: #deffd4; 
+    
 }
 
 .btn-icon {
@@ -174,4 +182,11 @@ footer {
 
 .nav-item{
     padding: 10px;
+}
+
+.Contenedor_descripcion{
+    margin: 2%;
+    overflow-y: scroll;
+    padding: 5%;
+    max-height: 80vh;
 }
