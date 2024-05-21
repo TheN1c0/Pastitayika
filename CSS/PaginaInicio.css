@@ -190,3 +190,9 @@ footer {
     padding: 5%;
     max-height: 80vh;
 }
+.btn-descripcion{
+    position: absolute;
+    bottom: 10%;
+    right: 65%;
+    z-index: 10;
+}
