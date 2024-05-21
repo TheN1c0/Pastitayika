@@ -80,13 +80,15 @@ footer {
     
 }
 #carouselExampleIndicators{
-    width: 90% ;
+    width: 35vw; 
     margin: auto;
     
 }
 .carousel-item img {
     height: auto; 
-    max-height: 519px; 
+    max-height: 80vh;
+    max-width: 55vw; 
+    
   }
 
 #presentacion{
@@ -189,6 +191,7 @@ footer {
     overflow-y: scroll;
     padding: 5%;
     max-height: 80vh;
+    font-size: 1vw;
 }
 .btn-descripcion{
     position: absolute;
