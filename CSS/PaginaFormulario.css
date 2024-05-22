@@ -45,8 +45,10 @@ footer {
 }
 
 #logo{
+    position: absolute;
     border-radius: 50%;
     width: 80px;
+    right: 1%;
 }
 [id^="descripcion"] {
     color: #deffd4; 

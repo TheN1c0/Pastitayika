@@ -103,8 +103,10 @@ footer {
 }
 
 #logo{
+    position: absolute;
     border-radius: 50%;
     width: 80px;
+    right: 1%;
 }
 [id^="descripcion"] {
     color: #deffd4; 
@@ -198,4 +200,26 @@ footer {
     bottom: 10%;
     right: 65%;
     z-index: 10;
+    
+}
+.Titulo_planta{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 90%;
+    z-index: 10;
+    background-color: rgba(40, 99, 7, 0.411);
+    color: black;
+}
+
+.dato{
+    background-color: green;
+    border: 2px solid rgb(1, 59, 1);
+}
+#carouselizq{
+    margin: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    text-align: justify;
 }
