@@ -21,6 +21,7 @@ body{
   }
 #navbarNav{
     background-color: rgba(91, 158, 52, 0.5);
+    width: 100%;
 }
 nav{
     position: fixed;
@@ -46,9 +47,9 @@ footer {
 #F2D4C2
 */
 #part_derecha{
-    width: 20%;
+    width: 25%;
     
-    right: 0;
+    right: 3%;
     position: fixed;
     
     
@@ -56,7 +57,7 @@ footer {
     margin-top: 1%;
 }
 #part_izquierda{
-    width: 20%;
+    width: 25%;
     overflow: hidden;
     left: 0;
     position: fixed;
@@ -65,24 +66,24 @@ footer {
 }
 
 #part_medio{
-    margin-left: 20%;
+    margin-left: 25%;
     overflow-y: hidden;
     margin-right: 20%;
     position: fixed;
     margin-top: 1%;
     
     
-    width: 60%;
+    width: 50%;
     top: 10%;
     bottom: 40px;
     padding: 1%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    
     
 }
 #carouselExampleIndicators{
     width: 35vw; 
     margin: auto;
-    
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 .carousel-item img {
     height: auto; 
@@ -190,7 +191,7 @@ footer {
 
 .Contenedor_descripcion{
     margin: 2%;
-    overflow-y: scroll;
+    overflow-y: auto;
     padding: 5%;
     max-height: 80vh;
     font-size: 1vw;
@@ -213,13 +214,23 @@ footer {
 }
 
 .dato{
-    background-color: green;
-    border: 2px solid rgb(1, 59, 1);
+    background-color: rgba(25, 185, 105, 0.596);
+    
+    padding: 5%;
+    height: 34vh;
+    
+    
 }
 #carouselizq{
+    border: 2px solid rgb(1, 59, 1);
     margin: 10%;
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
     text-align: justify;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    height: 34vh;
+}
+.dato_titulo{
+    text-align: left;
 }
