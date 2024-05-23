@@ -205,11 +205,11 @@ footer {
 }
 .Titulo_planta{
     position: absolute;
-    bottom: 8.5%;
-    left: 40%;
-    width: 90%;
+    bottom: 80%;
+    left: 0;
+    width: 100%;
     z-index: 10;
-    background-color: rgba(255, 255, 255,0.7);
+    background-color: rgba(255, 255, 255, 0.774);
     color: black;
     font-size: 25px;
     padding: 5px;
@@ -220,7 +220,7 @@ footer {
     background-color: rgba(25, 185, 105, 0.596);
     
     padding: 5%;
-    height: 34vh;
+    height: 35.5vh;
     
     
 }
@@ -231,8 +231,8 @@ footer {
     margin-right: 5%;
     width: 90%;
     text-align: justify;
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
-    height: 34vh;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    height: 36vh;
 }
 .dato_titulo{
     text-align: left;
@@ -250,7 +250,10 @@ footer {
     overflow-y: scroll;
 }
 .botonCerrar{
-    background-color: red;
+    background-color: rgba(196, 23, 23, 0.438);
     border: 1px solid white;
-    border-radius: 50%;
+    border-radius: 40%;
+    right: 0;
+    position: absolute;
+    z-index: 12;
 }
