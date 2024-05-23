@@ -205,12 +205,15 @@ footer {
 }
 .Titulo_planta{
     position: absolute;
-    top: 5%;
-    left: 10%;
+    bottom: 8.5%;
+    left: 40%;
     width: 90%;
     z-index: 10;
-    background-color: rgba(40, 99, 7, 0.411);
+    background-color: rgba(255, 255, 255,0.7);
     color: black;
+    font-size: 25px;
+    padding: 5px;
+
 }
 
 .dato{
