@@ -45,8 +45,74 @@
         <img src="../IMG/logo.png" alt="logo" id="logo">
     </nav>
     <div id="part_principal">
+        <div id="pestana1" class="pestana" style="display: none;">
+          <button class="botonCerrar" onclick="ocultarPestana()">X</button>
+          <H3>Descripción</H3>
+            <ul>
+              <li>Nombre Común: Monstera Deliciosa</li>
+              <li>Nombre Científico: Monstera Deliciosa</li>
+              <li>Ubicación: Interior principalmente, puede estar en exterior en climas cálidos y húmedos</li>
+              <li>Época de Plantación: Primavera es ideal para plantar, aunque en interiores se puede iniciar en cualquier época</li>
+              <li>Género: Monstera</li>
+              <li>Familia: Araceae</li>
+              <li>Origen: Selvas tropicales de México hasta Panamá</li>
+              <li>Crecimiento: Rápido bajo condiciones ideales</li>
+              <li>Riego: Cada 1-2 semanas, permitiendo que la tierra se seque entre riegos</li>
+              <li>Luz: Prefiere luz indirecta brillante, pero puede tolerar niveles bajos de luz</li>
+              <li>Temperatura Ideal: Entre 18°C y 27°C (64°F a 80°F)</li>
+              <li>Humedad: Prefiere alta humedad, considera usar un humidificador o colocar un plato con agua cerca</li>
+              <li>Fertilización: Fertilizante balanceado una vez al mes durante la primavera y verano</li>
+              <li>Reproducción: Por esquejes de tallo o de hoja en primavera o verano</li>
+              <li>Poda: Poda de hojas viejas o dañadas para estimular nuevo crecimiento y mantener la planta manejable</li>
+              <li>Toxicidad: Tóxica para mascotas y humanos si se ingieren partes de la planta debido a oxalato de calcio</li>
+            </ul>
+        </div>
+        <div id="pestana2" class="pestana" style="display: none;">
+          <H3>Descripción</H3>
+          <ul>
+            <li>Nombre Común: Higuera de Hoja de Violín</li>
+            <li>Nombre Científico: Ficus Lyrata</li>
+            <li>Ubicación: Ideal para interiores; puede colocarse al aire libre en climas sin heladas</li>
+            <li>Época de Plantación: En interiores, en cualquier época; en exteriores, en primavera o verano</li>
+            <li>Género: Ficus</li>
+            <li>Familia: Moraceae</li>
+            <li>Origen: África tropical</li>
+            <li>Crecimiento: Mediano a rápido bajo condiciones ideales</li>
+            <li>Riego: Moderado, permitir que la tierra se seque entre riegos</li>
+            <li>Luz: Prefiere luz indirecta brillante; evita la luz solar directa</li>
+            <li>Temperatura Ideal: Entre 16°C y 24°C (60°F a 75°F)</li>
+            <li>Humedad: Prefiere humedad moderada; puede beneficiarse de nebulización ocasional</li>
+            <li>Fertilización: Fertilizar cada mes durante la primavera y el verano con un fertilizante balanceado</li>
+            <li>Reproducción: Por esquejes de hojas o tallos durante la primavera</li>
+            <li>Poda: Poda las hojas dañadas o envejecidas para mantener la forma y promover un crecimiento saludable</li>
+            <li>Toxicidad: Tóxica para mascotas y humanos si se ingieren partes de la planta</li>
+        </ul>
+        </div>
+        <div id="pestana3" class="pestana" style="display: none;">
+          <H3>Descripción</H3>
+          <ul>
+            <li>Nombre Común: Espada de San Jorge, Lengua de Suegra</li>
+            <li>Nombre Científico: Sansevieria trifasciata</li>
+            <li>Ubicación: Interior o exterior en sombra parcial</li>
+            <li>Época de Plantación: Cualquier época del año</li>
+            <li>Género: Sansevieria</li>
+            <li>Familia: Asparagaceae</li>
+            <li>Origen: África Occidental y Tropical</li>
+            <li>Crecimiento: Lento</li>
+            <li>Riego: Bajo; permitir que la tierra se seque completamente entre riegos</li>
+            <li>Luz: Tolerante a luz baja; ideal luz indirecta media</li>
+            <li>Temperatura Ideal: Entre 18°C y 27°C (65°F a 80°F)</li>
+            <li>Humedad: Baja; no requiere mucha humedad</li>
+            <li>Fertilización: Fertilizar ligeramente durante la primavera y el verano</li>
+            <li>Reproducción: Por división de la planta o esquejes de hojas</li>
+            <li>Poda: No requiere poda regular, solo remover hojas muertas o dañadas</li>
+            <li>Toxicidad: Ligeramente tóxica si se ingiere</li>
+        </ul>
+        </div>
+        <!-- Fin de pestañas des descripción -->
+
         <section id="part_derecha">
-          <div class="Contenedor_descripcion">
+          <div class="Contenedor_descripcion"> <!-- Este contenedor ahora no tiene la descripción -->
             <div id="Descripcion_defecto" style="display: block;">
               <div class="grid-container">
               
@@ -69,71 +135,6 @@
 
             </div>
             </div>
-            <div id="Descripcion1" style="display: none;">
-            <H3>Descripción</H3>
-            <ul>
-              <li>Nombre Común: Monstera Deliciosa</li>
-              <li>Nombre Científico: Monstera Deliciosa</li>
-              <li>Ubicación: Interior principalmente, puede estar en exterior en climas cálidos y húmedos</li>
-              <li>Época de Plantación: Primavera es ideal para plantar, aunque en interiores se puede iniciar en cualquier época</li>
-              <li>Género: Monstera</li>
-              <li>Familia: Araceae</li>
-              <li>Origen: Selvas tropicales de México hasta Panamá</li>
-              <li>Crecimiento: Rápido bajo condiciones ideales</li>
-              <li>Riego: Cada 1-2 semanas, permitiendo que la tierra se seque entre riegos</li>
-              <li>Luz: Prefiere luz indirecta brillante, pero puede tolerar niveles bajos de luz</li>
-              <li>Temperatura Ideal: Entre 18°C y 27°C (64°F a 80°F)</li>
-              <li>Humedad: Prefiere alta humedad, considera usar un humidificador o colocar un plato con agua cerca</li>
-              <li>Fertilización: Fertilizante balanceado una vez al mes durante la primavera y verano</li>
-              <li>Reproducción: Por esquejes de tallo o de hoja en primavera o verano</li>
-              <li>Poda: Poda de hojas viejas o dañadas para estimular nuevo crecimiento y mantener la planta manejable</li>
-              <li>Toxicidad: Tóxica para mascotas y humanos si se ingieren partes de la planta debido a oxalato de calcio</li>
-            </ul>
-          
-            </div>
-            <div id="Descripcion2" style="display: none;">
-              <H3>Descripción</H3>
-              <ul>
-                <li>Nombre Común: Higuera de Hoja de Violín</li>
-                <li>Nombre Científico: Ficus Lyrata</li>
-                <li>Ubicación: Ideal para interiores; puede colocarse al aire libre en climas sin heladas</li>
-                <li>Época de Plantación: En interiores, en cualquier época; en exteriores, en primavera o verano</li>
-                <li>Género: Ficus</li>
-                <li>Familia: Moraceae</li>
-                <li>Origen: África tropical</li>
-                <li>Crecimiento: Mediano a rápido bajo condiciones ideales</li>
-                <li>Riego: Moderado, permitir que la tierra se seque entre riegos</li>
-                <li>Luz: Prefiere luz indirecta brillante; evita la luz solar directa</li>
-                <li>Temperatura Ideal: Entre 16°C y 24°C (60°F a 75°F)</li>
-                <li>Humedad: Prefiere humedad moderada; puede beneficiarse de nebulización ocasional</li>
-                <li>Fertilización: Fertilizar cada mes durante la primavera y el verano con un fertilizante balanceado</li>
-                <li>Reproducción: Por esquejes de hojas o tallos durante la primavera</li>
-                <li>Poda: Poda las hojas dañadas o envejecidas para mantener la forma y promover un crecimiento saludable</li>
-                <li>Toxicidad: Tóxica para mascotas y humanos si se ingieren partes de la planta</li>
-            </ul>
-              </div>
-              <div id="Descripcion3" style="display: none;">
-                <H3>Descripción</H3>
-                <ul>
-                  <li>Nombre Común: Espada de San Jorge, Lengua de Suegra</li>
-                  <li>Nombre Científico: Sansevieria trifasciata</li>
-                  <li>Ubicación: Interior o exterior en sombra parcial</li>
-                  <li>Época de Plantación: Cualquier época del año</li>
-                  <li>Género: Sansevieria</li>
-                  <li>Familia: Asparagaceae</li>
-                  <li>Origen: África Occidental y Tropical</li>
-                  <li>Crecimiento: Lento</li>
-                  <li>Riego: Bajo; permitir que la tierra se seque completamente entre riegos</li>
-                  <li>Luz: Tolerante a luz baja; ideal luz indirecta media</li>
-                  <li>Temperatura Ideal: Entre 18°C y 27°C (65°F a 80°F)</li>
-                  <li>Humedad: Baja; no requiere mucha humedad</li>
-                  <li>Fertilización: Fertilizar ligeramente durante la primavera y el verano</li>
-                  <li>Reproducción: Por división de la planta o esquejes de hojas</li>
-                  <li>Poda: No requiere poda regular, solo remover hojas muertas o dañadas</li>
-                  <li>Toxicidad: Ligeramente tóxica si se ingiere</li>
-              </ul>
-              
-                </div>
           </div>
         </section>
     
@@ -144,10 +145,10 @@
                 <a class="nav-link" href="#" onclick="">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" onclick="mostrarContenido('contenido1')">Productos</a>
+                <a class="nav-link" href="#" >Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" onclick="mostrarContenido('contenido2')">Pricing</a>
+                <a class="nav-link" href="#" >Pricing</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link disabled">Disabled</a>
@@ -162,7 +163,7 @@
     
           <!-- contenido 1 -->
           <div id="contenido1" style="display: block;">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -173,17 +174,17 @@
                   <h1 class="Titulo_planta">Monstera Deliciosa</h1>
                   
                   <img class="d-block w-100" src="../IMG/imagenn1.jpg" alt="First slide" >
-                  <button class="btn btn-success btn-descripcion" onclick="mostrarDescri('Descripcion1')">Descripción</button>
+                  <button class="btn btn-success btn-descripcion" onclick="mostrarDescri('pestana1')">Descripción</button>
                 </div>
                 <div class="carousel-item">
                   <h1 class="Titulo_planta">Higuera de Hoja de Violín</h1>
                   <img class="d-block w-100" src="../IMG/imagenn2.jpg" alt="Second slide">
-                  <button class="btn btn-success btn-descripcion" onclick="mostrarDescri('Descripcion2')">Descripción</button>
+                  <button class="btn btn-success btn-descripcion" onclick="mostrarDescri('pestana2')">Descripción</button>
                 </div>
                 <div class="carousel-item">
                   <h1 class="Titulo_planta">Lengua de Suegra</h1>
                   <img class="d-block w-100" src="../IMG/imagenn3.jpg" alt="Third slide" onclick="">
-                  <button class="btn btn-success btn-descripcion" onclick="mostrarDescri('Descripcion3')">Descripción</button>
+                  <button class="btn btn-success btn-descripcion" onclick="mostrarDescri('pestana3')">Descripción</button>
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

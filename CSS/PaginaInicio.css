@@ -21,7 +21,7 @@ body{
   }
 #navbarNav{
     background-color: rgba(91, 158, 52, 0.5);
-    width: 100%;
+    
 }
 nav{
     position: fixed;
@@ -199,7 +199,7 @@ footer {
 .btn-descripcion{
     position: absolute;
     bottom: 10%;
-    right: 65%;
+    right: 37%;
     z-index: 10;
     
 }
@@ -233,4 +233,21 @@ footer {
 }
 .dato_titulo{
     text-align: left;
+}
+
+.pestana{
+    position: fixed;
+    z-index: 11;
+    border: 1px solid black;
+    background-color: #ffffffde;
+    top: 47%;
+    left: 54.5%;
+    width: 30vw;
+    height: 33vh;
+    overflow-y: scroll;
+}
+.botonCerrar{
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 50%;
 }
