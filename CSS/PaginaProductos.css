@@ -204,10 +204,13 @@ footer {
     padding: 10px;
 }
 
-.btn-icon{
-    top: 50%;
+#icono-carrito{
+    position: fixed;
+    top: 2%;
+    left: 5%;
+
 }
-/* Estilos para el modal del carrito */
+
 .modal {
     display: none;
     position: fixed;
